@@ -110,8 +110,3 @@ INFO1111 Group3 Assignment 2B
 - 达到3级需要强大的git技巧（合并，在本地正确使用等），强大的LaTeX和出色的案例研究。
 - 要达到第4级，就需要具备第3级的全部条件，并且要对相关专业的性质以及出色的团队合作拥有出色的洞察力。
 
-
-
-<style>
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-</style>
