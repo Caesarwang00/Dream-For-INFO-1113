@@ -1,11 +1,9 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 
 \title{INFO1111: Computing 1A Professionalism}
 \date{Semester 1 2021}
 \author{Project 2B}
 
-
-\usepackage{natbib}
 \usepackage{graphicx}
 \begin{document}
 \maketitle
@@ -21,6 +19,7 @@
 1 &           &            \\ \hline
 2 &           &            \\ \hline
 3 &           &            \\ \hline
+4 &           &            \\ \hline
 \end{tabular}
 \end{center}
 \thispagestyle{empty}
@@ -39,8 +38,9 @@ write text in here
 \hline
   & Name      & Major                \\ \hline
 1 & Student A & Software Development \\ \hline
-2 & Student C & Information Systems  \\ \hline
-3 & Student D & Data Science         \\ \hline
+2 & Student B & Data Science        \\ \hline
+3 & Student C & Information Systems  \\ \hline
+4 & Student D & Data Science         \\ \hline
 \end{tabular}
 \end{center}
 
@@ -58,8 +58,9 @@ write text in here
 \subsection{Software Development}
 
 \section{Conclusion}
-``I always thought something was fundamentally wrong with the universe'' \citep{adams1995hitchhiker}
+``I always thought something was fundamentally wrong with the universe\cite{Burridge_2018a}''
+\bibliography{references}{}
+\bibliographystyle{apalike}
+% \bibliographystyle{ieeetran}
 
-\bibliographystyle{plain}
-\bibliography{references}
 \end{document}
