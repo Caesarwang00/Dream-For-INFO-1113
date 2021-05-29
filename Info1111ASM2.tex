@@ -11,21 +11,25 @@
 \usepackage{caption}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
+\usepackage{fancyhdr}
 
+% Create a command to change the font
 \newcommand\helveticafamily{\fontfamily{phv} \selectfont}
 \DeclareTextFontCommand{\texthelvetica}{\helveticafamily}
 
-\usepackage{fancyhdr}
+
 \pagestyle{fancy}
 \setlength\headheight{23pt}
 \lhead{\includegraphics[scale=.3]{usydSlogo.jpg}}
-\rhead{INFO1111   2021 Sem 1\\School of Computer Science}
+\rhead{\noindent \scalebox{1}{\helveticafamily INFO1111   2021 Sem 1}\\School of Computer Science}
 \chead{} \lfoot{} \cfoot{\thepage} \rfoot{}
 
+\setlength{\parindent}{0pt}
+\setlength{\lineskip}{1.5em}
+\setlength{\parskip}{1.5em}
 
 \begin{document}
 
-% \includegraphics[scale=0.6]{usydlogo.png}
 
 \maketitle
 \begin{center}
@@ -33,7 +37,6 @@
 \end{center}
 
 
-% \noindent \scalebox{4.5}{\helveticafamily Helvetica}
 \begin{center}
 \begin{tabular}{|l|c|r|}
 \hline
@@ -46,8 +49,10 @@
 \end{center}
 
 \thispagestyle{empty}
-
 \newpage
+
+\tableofcontents % Generate report directory
+% \thispagestyle{empty}
 
 \setcounter{page}{1}
 \newpage
@@ -79,6 +84,7 @@ write text in here
 
 \newpage
 \subsection{Information Systems}
+
 % QBUS3350 Project Planning and Management
 % BUSS1040 Economics for Business Decision Making
 
