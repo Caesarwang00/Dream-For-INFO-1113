@@ -1,16 +1,29 @@
 \documentclass[12pt]{article}
 
-\title{\includegraphics[scale=.5]{usydlogo.png}\linebreak \\INFO1111: Computing 1A Professionalism
+\title{\includegraphics[scale=.5]{usydlogo.png}
+\linebreak \\
+\noindent \scalebox{1}{\helveticafamily INFO1111: Computing 1A Professionalism}
 }
-
-
 \date{Semester 1 2021}
 \author{Project 2B}
 
+
 \usepackage{caption}
 \usepackage{graphicx}
-\begin{document}
+\usepackage{fancyhdr}
 
+\newcommand\helveticafamily{\fontfamily{phv} \selectfont}
+\DeclareTextFontCommand{\texthelvetica}{\helveticafamily}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength\headheight{23pt}
+\lhead{\includegraphics[scale=.3]{usydSlogo.jpg}}
+\rhead{INFO1111   2021 Sem 1\\School of Computer Science}
+\chead{} \lfoot{} \cfoot{\thepage} \rfoot{}
+
+
+\begin{document}
 
 % \includegraphics[scale=0.6]{usydlogo.png}
 
@@ -19,6 +32,8 @@
     \textbf{Group Number:}
 \end{center}
 
+
+% \noindent \scalebox{4.5}{\helveticafamily Helvetica}
 \begin{center}
 \begin{tabular}{|l|c|r|}
 \hline
@@ -29,15 +44,18 @@
 4 &           &            \\ \hline
 \end{tabular}
 \end{center}
+
 \thispagestyle{empty}
+
 \newpage
 
 \setcounter{page}{1}
+\newpage
 \section{Introduction}
 You should remove this text and replace it with your report contents
 Overview of the contents, purpose of the report and outcome (i.e. what two non-computing electives were selected for each computing major).
 
-
+\newpage
 \section{Major Allocation}
 write text in here
 \begin{center}
@@ -51,14 +69,15 @@ write text in here
 \end{tabular}
 \end{center}
 
+\newpage
 \section{Recommendations}
 
 \subsection{Computer Science}
 
-
+\newpage
 \subsection{Data Science}
 
-
+\newpage
 \subsection{Information Systems}
 % QBUS3350 Project Planning and Management
 % BUSS1040 Economics for Business Decision Making
@@ -75,9 +94,15 @@ Taking these two subjects as elective courses also lays the foundation for later
 
 In conclusion, learning the two courses QBUS 3350 and BUSS1040 will teach students the basic knowledge of management and business, and give students more choices in academic and work. Students can no longer be limited to technical positions such as database management, so that they can look for jobs in analysis and management positions. Finally, learning these two courses also lays the foundation for a higher level of learning, and all-round development can gain more competitive advantages in today's society.
 
-
+\newpage
 \subsection{Software Development}
 
+
+
+\newpage
+\section{Contributions}
+
+\newpage
 \section{Conclusion}
 ``I always thought something was fundamentally wrong with the universe\cite{Burridge_2018a}''
 \bibliography{references}{}
