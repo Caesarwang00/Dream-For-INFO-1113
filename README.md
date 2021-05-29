@@ -14,16 +14,16 @@ INFO1111 Group3 Assignment 2B
 #### 作为一个团队，
 
 1. 研究可用的不同选修课
-2. 从大学其他地方为四个计算专业中的每一个确定两个选修课大学，最适合四个专业的学生学习
+2. 从大学其他地方为四个计算专业中的每一个确定两个选修课学习，最适合四个专业的学生学习
 3. 为每个团队成员分配一个专业
 
 #### 作为个人，
 
-每个团队成员都需要说明为什么两个选定的选修课可能会最适合（即最相关和最有用）被选为Badvcomputing学位的一部分并作为指定专业的学生(对于双学位的人)。
+每个团队成员都需要说明为什么两个选定的选修课可能会最适合（即最相关和最有用）被选为Badvcomputing学位的一部分并作为指定专业的学生(包括对于双学位的人)。
 
 您将需要创建一个用LaTeX编写的报告。这需要将一组LaTeX文件存储在共享git信息库：这些文件将包括
 
-- 包含报告共享元素的主文件 `master`（简介；包括每个单独的推荐部分；关于捐款概述的部分该小组的管理方式；和参考书目）`(an introduction; the inclusion of each separate recommendation section; a section on contributions outlining
+- 包含报告共享元素的主文件 `master`（简介；包括每个单独的推荐部分；关于概述的部分该小组的管理方式；和参考书目）`(an introduction; the inclusion of each separate recommendation section; a section on contributions outlining
   how the group was managed; and a bibliography)`。该组的所有成员都需要为此做出贡献。
 - 一组单独的“推荐”文件（每个学生一个）。`a set of individual “recommendation” files (one for each student). `每个成员贡献的推荐部分将需要1000-2000字，并应说明在哪些基础上选修科目被认为是给定专业的学生最合适的选择。
 
