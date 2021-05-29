@@ -1,41 +1,18 @@
-\documentclass[12pt]{article}
+\documentclass{article}
 
-\title{\includegraphics[scale=.5]{usydlogo.png}
-\linebreak \\
-\noindent \scalebox{1}{\helveticafamily INFO1111: Computing 1A Professionalism}
-}
+\title{INFO1111: Computing 1A Professionalism}
 \date{Semester 1 2021}
 \author{Project 2B}
 
 
-\usepackage{caption}
+\usepackage{natbib}
 \usepackage{graphicx}
-\usepackage{fancyhdr}
-\usepackage{fancyhdr}
-
-% Create a command to change the font
-\newcommand\helveticafamily{\fontfamily{phv} \selectfont}
-\DeclareTextFontCommand{\texthelvetica}{\helveticafamily}
-
-
-\pagestyle{fancy}
-\setlength\headheight{23pt}
-\lhead{\includegraphics[scale=.3]{usydSlogo.jpg}}
-\rhead{\noindent \scalebox{1}{\helveticafamily INFO1111   2021 Sem 1}\\School of Computer Science}
-\chead{} \lfoot{} \cfoot{\thepage} \rfoot{}
-
-\setlength{\parindent}{0pt}
-\setlength{\lineskip}{1.5em}
-\setlength{\parskip}{1.5em}
-
 \begin{document}
-
-
 \maketitle
+
 \begin{center}
     \textbf{Group Number:}
 \end{center}
-
 
 \begin{center}
 \begin{tabular}{|l|c|r|}
@@ -47,34 +24,28 @@
 4 &           &            \\ \hline
 \end{tabular}
 \end{center}
-
 \thispagestyle{empty}
 \newpage
 
-\tableofcontents % Generate report directory
-% \thispagestyle{empty}
-
 \setcounter{page}{1}
-\newpage
 \section{Introduction}
 You should remove this text and replace it with your report contents
 Overview of the contents, purpose of the report and outcome (i.e. what two non-computing electives were selected for each computing major).
 
-\newpage
+
 \section{Major Allocation}
 write text in here
 \begin{center}
 \begin{tabular}{|l|c|r|}
 \hline
   & Name      & Major                \\ \hline
-1 & Student A & Software Development \\ \hline
-2 & Mian Wei  & Data Science         \\ \hline
+1 & Student A & Computer Science     \\ \hline
+2 & Student B & Data Science         \\ \hline
 3 & Student C & Information Systems  \\ \hline
-4 & Student D & Data Science         \\ \hline
+4 & Student D & Software Development \\ \hline
 \end{tabular}
 \end{center}
 
-\newpage
 \section{Recommendations}
 
 \subsection{Computer Science}
@@ -102,12 +73,12 @@ In conclusion, MATH1005 and QBUS2820 will development data science students' sta
 \subsection{Software Development}
 
 \section{Conclusion}
-``I always thought something was fundamentally wrong with the universe'' \citep{adams1995hitchhiker}
+
 
 \bibliographystyle{plain}
 \bibliography{references}
 =======
-``I always thought something was fundamentally wrong with the universe\cite{Burridge_2018a}''
+
 \bibliography{references}{}
 \bibliographystyle{apalike}
 % \bibliographystyle{ieeetran}
