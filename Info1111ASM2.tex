@@ -1,12 +1,34 @@
 \documentclass{article}
 
-\title{INFO1111: Computing 1A Professionalism}
+\title{\includegraphics[scale=.5]{usydlogo.png}
+\linebreak \\
+\noindent \scalebox{1}{\helveticafamily INFO1111: Computing 1A Professionalism}
+}
 \date{Semester 1 2021}
 \author{Project 2B}
 
 
-\usepackage{natbib}
+
+\usepackage{caption}
 \usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{fancyhdr}
+
+% Create a command to change the font
+\newcommand\helveticafamily{\fontfamily{phv} \selectfont}
+\DeclareTextFontCommand{\texthelvetica}{\helveticafamily}
+
+
+\pagestyle{fancy}
+\setlength\headheight{23pt}
+\lhead{\includegraphics[scale=.3]{usydSlogo.jpg}}
+\rhead{\noindent \scalebox{1}{\helveticafamily INFO1111   2021 Sem 1}\\School of Computer Science}
+\chead{} \lfoot{} \cfoot{\thepage} \rfoot{}
+
+\setlength{\parindent}{0pt}
+\setlength{\lineskip}{1.5em}
+\setlength{\parskip}{1.5em}
+
 \begin{document}
 \maketitle
 
@@ -19,10 +41,6 @@
 \hline
   & Full Name & Student ID \\ \hline
 1 &           &            \\ \hline
-2 &           &            \\ \hline
-3 &           &            \\ \hline
-4 &           &            \\ \hline    
-=======
 2 & Mian Wei  & 490038633  \\ \hline
 3 &           &            \\ \hline
 4 &           &            \\ \hline
@@ -44,14 +62,9 @@ write text in here
 \hline
   & Name      & Major                \\ \hline
 1 & Student A & Software Development \\ \hline
-<<<<<<< Updated upstream
-2 & Student C & Information Systems  \\ \hline
-3 & Student D & Data Science         \\ \hline
+2 & Student B & Information Systems  \\ \hline
+3 & Mian Wei  & Data Science         \\ \hline
 4 & Student D & Computer Science     \\ \hline
-=======
-2 & Mian Wei  & Data Science         \\ \hline
-3 &           & Information Systems  \\ \hline
-4 & Student D & Data Science         \\ \hline
 \end{tabular}
 \end{center}
 
