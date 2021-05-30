@@ -7,6 +7,15 @@
 \date{\noindent \scalebox{1}{\textbf{\helveticafamily Semester 1 2021}}}
 \author{\noindent \scalebox{1}{\textbf{\helveticafamily Project 2B}}}
 
+\usepackage[utf8]{inputenc}
+\usepackage[TS1,T1]{fontenc}
+\usepackage{array, booktabs}
+\usepackage[x11names]{xcolor}
+\usepackage{colortbl}
+\definecolor{baseD}{HTML}{7CAFC2}
+\newcommand{\foo}{\color{baseD}\makebox[0pt]{\textbullet}\hskip-0.5pt\vrule width 1pt\hspace{\labelsep}}
+
+% Timeline
 \usepackage{times} % Set global font
 \usepackage{caption}
 \usepackage{graphicx}
@@ -102,9 +111,9 @@ I chose Medicine and Agriculture. The reasons are simple but mainly include two 
 
 These two elective courses have a lot of applications, whether it is hospital medical system, or automated farm management can not be separated from computer science. The hospital health care system is faced with a large number of patients every day, including the elderly, young and children. The level of education of these patients is different, which makes the procedure readability a requirement. So the person writing the program naturally has to have a certain amount of medical knowledge, because they have to have that knowledge before they can explain it in plain English to others. And then there's Agriculture. For example, when you're writing programs for automated cotton-growing when to sprinkle water, what humidity and temperature to keep in the greenhouse, and so on. These are things that need to be taken into account and written into the program, which brings up the need to have an understanding of agriculture.
 
-When it comes to medicine, the first thing we need to know is chemistry. Medicine themselves are the product of the application of chemistry in life sciences. So I choose Chemistry (CHEM1011) as my elective course. Although chemistry plays an important role in medicine, how can it help students of computer science? In modern hospitals, more and more automated procedures have been added. First, the appointment system, then the medical examination, and finally the purchase of drugs, all these procedures can be automated. In the process of automation, programmers who write programs inevitably need to be familiar with and understand certain medical knowledge. And the beginning of all this, in my opinion, is chemistry. Since chemistry is so important, are there any special requirements for studying chemistry? According to the University of Sydney website, There is no assumed knowledge of chemistry for this unit of study but students who have not completed HSC Chemistry (or equivalent) are strongly advised to take the Chemistry Bridging Course (offered in February). (USTD N.D.)
+When it comes to medicine, the first thing we need to know is chemistry. Medicine themselves are the product of the application of chemistry in life sciences. So I choose Chemistry (CHEM1011) as my elective course. Although chemistry plays an important role in medicine, how can it help students of computer science? In modern hospitals, more and more automated procedures have been added. First, the appointment system, then the medical examination, and finally the purchase of drugs, all these procedures can be automated. In the process of automation, programmers who write programs inevitably need to be familiar with and understand certain medical knowledge. And the beginning of all this, in my opinion, is chemistry. Since chemistry is so important, are there any special requirements for studying chemistry? According to the University of Sydney website, There is no assumed knowledge of chemistry for this unit of study but students who have not completed HSC Chemistry (or equivalent) are strongly advised to take the Chemistry Bridging Course (offered in February). (USTD, N.D.)
 
-Next, I'd like to talk about the electives in agriculture. First of all, we need to define a target, the target is what kind of crops to breeding, and the best way to choose is to consider their economic value, and if we need to analyze whether a crop has commercial value. I think ECON1002 is a really good choice. The second step is to understand how computer science as a major applies to the field. First of all, different crops have different growth cycles, and different periods require different amounts of water, temperature and sunlight. These factors are variables, and the control of variables happens to be an important and frequently used part of computer science. Using the knowledge in computer science to establish a set of the crop management system is a quite feasible scheme. Since the first step is to understand which crops have high commercial value, it is necessary to learn ECON1002. First of all, the requirements for the course, Students enrolled in this unit have an assumed knowledge equal to or exceeding 70 or higher in HSC Mathematics (or equivalent), or 35 or higher in HSC Mathematics Extension 1 (or equivalent), or 35 or higher in HSC Mathematics Extension 2 (or equivalent). (USTD N.D.)
+Next, I would like to talk about the electives in agriculture. First of all, we need to define a target, the target is what kind of crops to breeding, and the best way to choose is to consider their economic value, and if we need to analyze whether a crop has commercial value. I think ECON1002 is a really good choice. The second step is to understand how computer science as a major applies to the field. First of all, different crops have different growth cycles, and different periods require different amounts of water, temperature and sunlight. These factors are variables, and the control of variables happens to be an important and frequently used part of computer science. Using the knowledge in computer science to establish a set of the crop management system is a quite feasible scheme. Since the first step is to understand which crops have high commercial value, it is necessary to learn ECON1002. First of all, the requirements for the course, Students enrolled in this unit have an assumed knowledge equal to or exceeding 70 or higher in HSC Mathematics (or equivalent), or 35 or higher in HSC Mathematics Extension 1 (or equivalent), or 35 or higher in HSC Mathematics Extension 2 (or equivalent). (USTD, N.D.)
 
 Finally, I will summarize the above. My chosen fields are agriculture and medicine. In these two aspects, the general direction of the application of computer science is the same, that is, the automation part of modernization. Automation, as the name implies, is to replace manual labour with machines, and machines are run in accordance with the program, and the program is the way to apply computer science. However, there are some differences in the professional courses of the two fields. In medical treatment, I hope to learn some knowledge about drugs first, because drugs are the second most important thing in hospitals besides doctors. However, in terms of agriculture, I want to start from the economic aspect, because I need to know what agricultural products I want to know, that is, which agricultural products with high economic benefits are. In the end, I chose ECON1002 and CHEM1011.
 
@@ -176,9 +185,42 @@ Like all the previous, the two elective units I recommend to Software Developmen
 
 \newpage
 \section{Contributions}
-We cooperated mainly through ZOOM Meeting and used WeChat for daily communication and document submission.We distribute the work on an equal and peaceful basis.In the process of working together, we helped each other solve problems and ended up with a great project.In the process of our cooperation, we also encountered a lot of problems.We find that Git and LaTeX are only based on theoretical learning and are still not proficient in practice.We encountered a lot of errors in using commands that took a lot of time to resolve, but together we managed to overcome them.In terms of time allocation, although we have a lot of tasks to do this month, we still maintain a certain frequency of group meetings and jointly monitor the progress.If we are working together as a team, I think we should finish individual tasks a week before the deadline, so that we can save more time to discuss and improve our project.Finally, the way we distribute is that everyone first chooses the work they want and distributes the remaining work. The way of distribution is to divide the remaining work equally, and then everyone chooses his own part.The result of the assignment is that each person completes his or her part of the discussion first, and then summarizes his or her part and merges it together.
+We mainly cooperate through ZOOM meetings and use WeChat for daily communication and document submission. Although we did not determine the team leader, the members supervised and reminded each other, and achieved good results.
+
+We distribute the work on an equal and peaceful basis. In the process of working together, we helped each other solve problems and ended up with a great project. Before the start of the personal area, we discussed the elective subjects suitable for each field, and made a project plan. Regarding the time allocation, although the project was not integrated in the team according to the scheduled time due to other work, we still completed the final version of the project before the work deadline. In the process of cooperation, although individuals are assigned, we still discuss and guide each other when we encounter problems that we meet, and give full play to the ability of the group, in general, We had a great time working together in the group.
+
+In terms of completing personal tasks, we pushed the parts we have completed to GitHub for version management, merge the branches to the main branch for consolidation after all parts of our own are completed, finally create a tag for backup. During the process of our cooperation, we also encountered a lot of problems. We find that Git and LaTeX are only based on theoretical learning and are still not proficient in practice. We encountered a lot of errors in using commands that took a lot of time to resolve, but together we managed to overcome them.
+
+In terms of time allocation, although we have a lot of tasks to do this month, we still maintain a certain frequency of group meetings and jointly monitor the progress. If we are working together as a team again, each one in our group should finish individual tasks a week before the deadline, so that we can spend more time discussing and improve our project.
+
+Finally, the way we assign is that everyone expresses what they are good at and their willingness to choose. After comparison, we decide the most suitable part, and then we work together to complete the public part of the group. Everyone fairly got the part that they compare or are best at. In this way, each member's enthusiasm is very high.
+Each member put forward suggestions for the latex template of the project, and participated in the writing of the project, and finally modified each other in their own git branch and merged with the main branch. This way we not only achieved version control, but also avoided risk of document being covered.
+
+In conclusion, all members have made corresponding contributions to the project. This is a very dynamic and efficient cooperation, we look forward to the next opportunity to learn together again.
 \newpage
 
+\begin{table}
+\centering
+
+\renewcommand\arraystretch{1.4}\arrayrulecolor{baseD}
+\captionsetup{singlelinecheck=false, labelfont=sc, labelsep=quad}
+\caption*{Timeline}\vskip -1.5ex
+\begin{tabular}{@{\,}r <{\hskip 2pt} !{\foo} >{\raggedright\arraybackslash}p{5cm}}
+\toprule
+\addlinespace[1.5ex]
+%This is the line spacing of the table
+5.30 & Finalized\\
+5.29 & Make recommendations for each other in the group, and complete the contribution part\\
+5.25 & Remind all group member about project deadlines\\
+5.23 & Group work deadline, Tutorial discussion\\
+5.20 & Zoom meeting\\
+5.13 & Zoom meeting\\
+5.07 & Zoom meeting, Complete professional discussions and assign each person's area of responsibility\\
+4.30 & Create a GitHub project  \href{https://github.com/GaryDu0123/Dream-For-INFO-1111}{Dream-For-INFO-1111}\\
+\end{tabular}
+\end{table}
+
+\newpage
 % \noindent
 % \hangafter=1
 % \setlength{\hangindent}{2em}
