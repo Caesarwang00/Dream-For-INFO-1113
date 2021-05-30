@@ -1,9 +1,6 @@
 # Dream-For-INFO-1111
 INFO1111 Group3 Assignment 2B
 
-# Dream-For-INFO-1111
-INFO1111 Group3 Assignment 2B
-
 # Description
 ## Overview
 This assignment is designed to help you understand the different non-computing available elective courses and demonstrate your understanding and skills of Git and LaTeX.
