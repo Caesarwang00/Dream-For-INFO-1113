@@ -2,28 +2,30 @@
 
 \title{\includegraphics[scale=.5]{usydlogo.png}
 \linebreak \\
-\noindent \scalebox{1}{\helveticafamily INFO1111: Computing 1A Professionalism}
+\noindent \scalebox{1}{\textbf{\helveticafamily INFO1111: Computing 1A Professionalism}}
 }
-\date{Semester 1 2021}
-\author{Project 2B}
+\date{\noindent \scalebox{1}{\textbf{\helveticafamily Semester 1 2021}}}
+\author{\noindent \scalebox{1}{\textbf{\helveticafamily Project 2B}}}
 
-
+\usepackage{times} % Set global font
 \usepackage{caption}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage[colorlinks,linkcolor=black]{hyperref}
+\usepackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry} %Set margins
 
 % Create a command to change the font
 \newcommand\helveticafamily{\fontfamily{phv} \selectfont}
 \DeclareTextFontCommand{\texthelvetica}{\helveticafamily}
 
-
+% Set header and footer
 \pagestyle{fancy}
 \setlength\headheight{23pt}
 \lhead{\includegraphics[scale=.3]{usydSlogo.jpg}}
 \rhead{\noindent \scalebox{1}{\helveticafamily INFO1111   2021 Sem 1}\\School of Computer Science}
 \chead{} \lfoot{} \cfoot{\thepage} \rfoot{}
 
+% Set line spacing and paragraph spacing and first line indentation
 \setlength{\parindent}{0pt}
 \setlength{\lineskip}{1.5em}
 \setlength{\parskip}{1.5em}
@@ -33,7 +35,7 @@
 
 \maketitle
 \begin{center}
-    \textbf{Group Number:}
+    \textbf{\noindent \scalebox{1}{\textbf{\helveticafamily Group Number:3}}}
 \end{center}
 
 
@@ -42,7 +44,7 @@
 \hline
   & Full Name & Student ID \\ \hline
 1 & Jero Zhu  & 510208561  \\ \hline
-2 & Yuhan Wang &            \\ \hline
+2 & Yuhan Wang& 510031279  \\ \hline
 3 & Guanyi Du & 510216876  \\ \hline
 4 & Mian Wei  & 490038633  \\ \hline
 \end{tabular}
@@ -57,12 +59,11 @@
 \setcounter{page}{1}
 \newpage
 \section{Introduction}
-You should remove this text and replace it with your report contents
-Overview of the contents, purpose of the report and outcome (i.e. what two non-computing electives were selected for each computing major).
+The subjects we choose correspond to some of our own demands. First of all, Guanyi Du chose QBUS3350 and BUSS1040. The purpose of the two courses is to discover the commercial value of information and make use of it. Then there is Jero Zhu, who has chosen DECO2102 and ISYS2120 to learn web design and how to use databases, respectively, to prepare for future employment. Next came Mian Wei. He wanted to discover the rules in data and use them to predict their possible future trend, which was also to prepare for his future work as a data analyst, so he chose Math1005 and QBUS2820. Finally, Yuhan Wang wants to make his own contribution to the automation of medical treatment or agriculture in the future, so he has to know some medical knowledge and find a crop with high commercial value, which makes him choose ECON1002 and CHEM1011.
 
 \newpage
 \section{Major Allocation}
-
+We started with a description of our interests and direction and had a ZOOM meeting. For different fields, we seek different professional knowledge. Generally, Jero Zhu chose Information System and Design, while Mian Wei chose Statistic Business.Guanyi Du chose Business and Commerce, and Yuhan Wang chose Medic and Agriculture.These fields are widely distributed, but our goals are generally the same: to replenish our expertise and prepare for future employment, and to create value in our fields.
 \begin{center}
 \begin{tabular}{|l|c|r|}
 \hline
@@ -88,7 +89,7 @@ Next, I'd like to talk about the electives in agriculture. First of all, we need
 
 Finally, I will summarize the above. My chosen fields are agriculture and medicine. In these two aspects, the general direction of the application of computer science is the same, that is, the automation part of modernization. Automation, as the name implies, is to replace manual labour with machines, and machines are run in accordance with the program, and the program is the way to apply computer science. However, there are some differences in the professional courses of the two fields. In medical treatment, I hope to learn some knowledge about drugs first, because drugs are the second most important thing in hospitals besides doctors. However, in terms of agriculture, I want to start from the economic aspect, because I need to know what agricultural products I want to know, that is, which agricultural products with high economic benefits are. In the end, I chose ECON1002 and CHEM1011.
 
-To make my argument more convincing, I'm going to give you some examples. The first is to prove the importance of chemistry in medicine, the essence of life is the complex chemical reaction, and the life of death is the end of the reaction, the effect of drugs and medicine is to add the necessary by this chemical elements or add a catalyst, add can save lives and correct the wrong drug will direct the end of the reaction, also is death. This makes it impossible for a programmer to be sloppy, a single mistake, a pill of the wrong kind, could be a disaster. Therefore, chemistry is a must to learn, whether it is in the supplement of professional knowledge, or respect for the lives of others, this is a must. Followed by the choice of crops, through some of the information on the Internet search, I found that in addition to planting conditions, planting quantity, the yield under the same area, the worldwide popularity, the margins when selling, the cost of land, the cost of workers machinery must be taken into account, so I will face the choice of diversification in choosing targets.I still can't make an accurate judgment or make a decision, which makes me have to study and understand the economic market, then analyze the data and make my choice.
+To make my argument more convincing, I'm going to give you some examples. The first is to prove the importance of chemistry in medicine, the essence of life is the complex chemical reaction, and the life of death is the end of the reaction, the effect of drugs and medicine is to add the necessary by this chemical elements or add a catalyst, add can save lives and correct the wrong drug will direct the end of the reaction, also is death. This makes it impossible for a programmer to be sloppy, a single mistake, a pill of the wrong kind, could be a disaster. Therefore, chemistry is a must to learn, whether it is in the supplement of professional knowledge, or respect for the lives of others, this is a must. Followed by the choice of crops, through some of the information on the Internet search, I found that in addition to planting conditions, planting quantity, the yield under the same area, the worldwide popularity, the margins when selling, the cost of land, the cost of workers machinery must be taken into account, so I will face the choice of diversification in choosing targets. I still can't make an accurate judgment or make a decision, which makes me have to study and understand the economic market, then analyze the data and make my choice.
 
 \newpage
 \subsection{Data Science}
@@ -130,11 +131,11 @@ For the Software Development major, I chose two elective units from the shared p
 
 The first elective unit is DECO2102 Introduction to Web-based Design, which is from the design area. This is a 2000-level unit of study, which has no prerequisites and corequisites, the only prohibition for this unit is DECO1016, which is Introduction to Web Design.
 
-As the student handbook describes, “This unit introduces students to web design and modern web technologies for the purpose of designing and prototyping web-based user interface solutions. Students will learn about design principles and patterns for the web and apply them in practical exercises that involve designing and creating interactive user interfaces. The unit will introduce interface sketching and wire-framing tools and techniques. A variety of media and platforms, such as desktop computers and mobile devices, will be discussed, with a focus on interaction design. Students will develop an understanding of web technologies and their role in user experience and interaction design, including the use of web technologies for prototyping user interfaces. Prototyping techniques covered in this unit include interface sketching and wire-framing to develop dynamic content and interactive designs”("Office," n.d.).
+As the student handbook describes, “This unit introduces students to web design and modern web technology to design and prototype web-based user interface solutions. Students will learn the principles and patterns of web design and apply them to practical exercises involving designing and creating interactive user interfaces. This unit will introduce interface sketch and wireframe tools and techniques. We will discuss various media and platforms, such as desktop computers and mobile devices, with an emphasis on interaction design. Students will develop an understanding of web technology and its role in user experience and interaction design, including the use of web technology to prototype user interfaces. The prototyping techniques covered in this module include interface sketches and wireframes to develop dynamic content and interaction design”("Office," n.d.).
 
-As the description shows here, this unit is a design unit set up for web designers. One of the points that I recommend this to software development students is that “focus on interaction design”, this outcome is quite important for software engineers, which is going to be the future career of most software development students. While making software or a web page (which is mentioned in the description of the unit in the handbook), developers always should consider the feeling of users, and take advice from them, for example, the buttons are too big, or the process is too complicated. When developers met this kind of condition, they need to think of solutions. Somebody might say that that’s the designers’ work, but it’s not.
+As the description shows here, this unit is a design unit set up for web designers. One of the points that I recommend to software development students is that “focus on interaction design”, this outcome is quite important for software engineers, which is going to be the future career of most software development students. While making software or a web page (which is mentioned in the description of the unit in the handbook), developers always should consider the feeling of users, and take advice from them, for example, the buttons are too big, or the process is too complicated. When developers met this kind of condition, they need to think of solutions. Somebody might say that that’s the designers’ work, but it’s not.
 
-Tim Wright is the author of Learning JavaScript: A Hands-On Guide to the Fundamentals of Modern JavaScript. According to him written in The 5 Most Important Skills a Web Developer Needs, “The days of shrugging your shoulders and saying, ‘I don’t know, I’m not a designer,’ are over … understanding typography, color theory and grid design (as examples) will help you understand decisions designers make” (Wright, n.d.). This quote shows that design is not only important to designers, also to the web developer, which is one of the pathways of students learning software development area. Words later in the quoted chapter also show the importance of software developer learning knowledge of design, “Without that knowledge you’ll probably find yourself getting frustrated a lot more than you need to when you can’t track down a designer to ask a question”  (Wright, n.d.). And “as a developer, knowing a little bit about design can go a long way in your career. Many people jokingly refer to this as “knowing enough to be dangerous”  (Wright, n.d.). As the quote shows clearly, design is one of the additional skills that developer may have to make the team works better and more efficient.
+Tim Wright is the author of Learning JavaScript: A Hands-On Guide to the Fundamentals of Modern JavaScript. According to him written in The 5 Most Important Skills a Web Developer Needs, “The days of shrugging your shoulders and saying, ‘I don’t know, I’m not a designer,’ are over … understanding typography, color theory and grid design (as examples) will help you understand decisions designers make” (Wright, n.d.). This quote shows that design is not only important to designers, also to the web developer, which is one of the pathways of students learning software development area. Words later in the quoted chapter also show the importance of software developer learning knowledge of design, “Without that knowledge, you’ll probably find yourself getting frustrated a lot more than you need to when you can’t track down a designer to ask a question”  (Wright, n.d.). And “as a developer, knowing a little bit about design can go a long way in your career. Many people jokingly refer to this as “knowing enough to be dangerous”  (Wright, n.d.). As the quote shows clearly, design is one of the additional skills that developer may have to make the team works better and more efficient.
 
 And as the responsibilities part of recruitment information posted by Google on Linkedin "Design, develop, test, deploy, maintain and improve software" shows, design has been one of the skills that a software developer should have. (0 Software\%20Engineer jobs in China, n.d.)
 
@@ -143,10 +144,11 @@ The opportunity that might result from undertaking this unit is a more or better
 
 The second elective unit I selected for software development student is ISYS2120 Data and Information Management, which comes from the area of Information System. The prerequisites of this unit are INFO1113 OR INFO1103 OR INFO1105 OR INFO1905 OR INFO1003 OR INFO1903 OR DECO1012, while INFO1113 is a required unit in the first semester of Advanced Computing students, and the prohibitions are INFO2120 OR INFO2820 OR COMP5138
 
-The description of this unit in the handbook is "The ubiquitous use of information technology leaves us facing a tsunami of data produced by users, IT systems and mobile devices. The proper management of data is hence essential for all applications and for effective decision making within organizations.
-This unit of study will introduce the basic concepts of database designs at the conceptual, logical and physical levels. We will place particular emphasis on introducing integrity constraints and the concept of data normalization which prevents data from being corrupted or duplicated in different parts of the database. This in turn helps in the data remaining consistent during its lifetime. Once a database design is in place, the emphasis shifts towards querying the data in order to extract useful information. The unit will introduce the SQL database query languages, which is industry standard. Other topics covered will include the important concept of transaction management, application development with a backend database, and an overview of data warehousing and OLAP"("Office," n.d.).
+The description of this unit in the handbook is "With the wide application of information technology, we are faced with a large amount of data generated by users, IT systems and mobile devices. Therefore, proper management of data is critical to effective decision making across all applications and within the organization.
 
-The key point that appears in the description is "database". As the recruitment description of the software development engineer on Linkedin from Amazon China states in the part of basic information, "Object Oriented Design and familiarity with application and database programming under UNIX/Linux; Experience with ... database and data mining systems"("0 Software\%20Engineer jobs in China," n.d.). As the recruitment information shows, the capacity of the database is a necessary skill of a software developer or engineer, especially for big companies. This can be proved by the recruitment information from Google on Linkedin as well, "We're looking for engineers who bring fresh ideas from ...data storage..." (0 Software\%20Engineer jobs in China, n.d.). Therefore, one of the benefits of undertaking this course is more career opportunity.
+This unit will introduce the basic concepts of database design at three levels: conceptual, logical, and physical. We will place special emphasis on introducing the concepts of integrity constraints and data normalization to prevent data from being corrupted or copied in different parts of the database. This, in turn, helps to keep the data consistent throughout its life cycle. Once the database design is in place, the focus shifts to querying the data in order to extract useful information. This module introduces the industry-standard SQL database query language. Other topics covered will include important concepts of transaction management, application development using back-end databases, and an overview of data warehousing and OLAP"("Office," n.d.).
+
+The key point that appears in the description is "database". As the recruitment description of the software development engineer on Linkedin from Amazon China states in the part of basic information, "Object-Oriented Design and familiarity with application and database programming under UNIX/Linux; Experience with ... database and data mining systems"("0 Software\%20Engineer jobs in China," n.d.). As the recruitment information shows, the capacity of the database is a necessary skill of a software developer or engineer, especially for big companies. This can be proved by the recruitment information from Google on Linkedin as well, "We're looking for engineers who bring fresh ideas from ...data storage..." (0 Software\%20Engineer jobs in China, n.d.). Therefore, one of the benefits of undertaking this course is more career opportunity.
 
 In a word, to choose this unit as an elective course, students can gain skills on the database, and improve their competencies when looking for internships or formal jobs.
 
@@ -155,14 +157,7 @@ Like all the previous, the two elective units I recommend to Software Developmen
 
 \newpage
 \section{Contributions}
-
-\newpage
-
-
-\newpage
-\section{Conclusion}
-
-
+We cooperated mainly through ZOOM Meeting and used WeChat for daily communication and document submission.We distribute the work on an equal and peaceful basis.In the process of working together, we helped each other solve problems and ended up with a great project.In the process of our cooperation, we also encountered a lot of problems.We find that Git and LaTeX are only based on theoretical learning and are still not proficient in practice.We encountered a lot of errors in using commands that took a lot of time to resolve, but together we managed to overcome them.In terms of time allocation, although we have a lot of tasks to do this month, we still maintain a certain frequency of group meetings and jointly monitor the progress.If we are working together as a team, I think we should finish individual tasks a week before the deadline, so that we can save more time to discuss and improve our project.Finally, the way we distribute is that everyone first chooses the work they want and distributes the remaining work. The way of distribution is to divide the remaining work equally, and then everyone chooses his own part.The result of the assignment is that each person completes his or her part of the discussion first, and then summarizes his or her part and merges it together.
 \newpage
 
 % \noindent
@@ -170,87 +165,72 @@ Like all the previous, the two elective units I recommend to Software Developmen
 % \setlength{\hangindent}{2em}
 \section{Bibliography}
 
-A Definition and Explanation of Business Economics. (2019). Retrieved from Investopedia website: \url{https://www.investopedia.com/terms/b/business-economics.asp}
+Cotton - Department of Agriculture. (n.d.). Retrieved from www.agriculture.gov.au website:
+\url{https://www.agriculture.gov.au/ag-farm-food/crops/cotton}
 
-Arts, F. of. (n.d.). Economics (Major) - Arts and Social Sciences (Undergraduate) - The University of Sydney. Retrieved May 29, 2021, from www.sydney.edu.au website: \url{https://www.sydney.edu.au/handbooks/arts/subject_areas_eh/economics_table.shtml}
+Database Administrator (DBA). (2012). Retrieved from Payscale.com website:
+\url{https://www.payscale.com/research/US/Job=Database\_Administrator\_(DBA)/Salary}
+
+Desjardins, J. (2014, November 10). The World’s Most Valuable Cash Crop. Retrieved from Visual Capitalist website:
+\url{https://www.visualcapitalist.com/the-worlds-most-valuable\-cash\-crop/}
+
+Edwards, J. (2019, August 16). Predictive analytics: Transforming data into future insights. Retrieved from CIO website:
+\url{https://www.cio.com/article/3273114/what-is-predictive-analytics-transforming-data-into-future-insights.html}
+
+Gramlich, J. (2020, November 23). What the data says (and doesn't say) about crime in the United States. Retrieved from \url{https://www.pewresearch.org/fact-tank/2020/11/20/facts-about-crime-in-the-u-s/}
+
+Hawley, J. (n.d.). Project Manager: Job Description \& Average Salary. Retrieved from Investopedia website:
+\url{https://www.investopedia.com/articles/wealth-management/021616/project-manager-job-description-average-salary.asp}
+
+How To Become a Business Analyst in 2021. (n.d.). Retrieved May 26, 2021, from Master’s in Data Science website:
+\url{https://www.mastersindatascience.org/careers/business-analyst/}
+
+Kenton, W. (2019). Chief Information Officer (CIO). Retrieved from Investopedia website:
+\url{https://www.investopedia.com/terms/c/cio.asp}
+
+Miller, K. (2019, February 4). What Does a Project Manager Do? Retrieved from Northeastern University Graduate Programs website:
+\url{https://www.northeastern.edu/graduate/blog/project-manager-responsibilities/}
+
+Office, P. (n.d.). Business Analytics - Interdisciplinary Studies - The University of Sydney. Retrieved May 29, 2021, from www.sydney.edu.au website:
+\url{https://www.sydney.edu.au/handbooks/interdisciplinary\_studies/subject\_areas/subjects\_ac/business\_analytics.shtml}
+
+Office, P. (n.d.). Design Descriptions - Interdisciplinary Studies - The University of Sydney. Www.sydney.edu.au. Retrieved May 29, 2021, from
+\url{ https://www.sydney.edu.au/handbooks/interdisciplinary_studies/units_of_study/tables_dh/design_descriptions.shtml}
 
 Office, P. (n.d.). Finance Descriptions - Interdisciplinary Studies - The University of Sydney. Retrieved May 29, 2021, from www.sydney.edu.au website:
 \url{https://www.sydney.edu.au/handbooks/interdisciplinary\_studies/units\_of\_study/tables\_dh/finance\_descriptions.shtml}
 
-When Database Refactoring Is a Smart Decision. (2020, September 8). Retrieved from Navisite website:
-\url{https://www.navisite.com/blog/when-database-refactoring-is-a-smart-decision/}
+Office, P. (n.d.). Information Systems Descriptions - Interdisciplinary Studies - The University of Sydney. Www.sydney.edu.au. Retrieved May 29, 2021, from
+\url{https://www.sydney.edu.au/handbooks/interdisciplinary_studies/units_of_study/tables_io/information_systems_descriptions.shtml}
 
-Miller, K. (2019, February 4). What Does a Project Manager Do? Retrieved from Northeastern University Graduate Programs website: \url{https://www.northeastern.edu/graduate/blog/project-manager-responsibilities/}
+Poldrack, C. (n.d.). Statistical Thinking for the 21st Century. Retrieved from
+\url{https://web.stanford.edu/group/poldracklab/statsthinking21/introduction.html#what-is-statistical-thinking}
 
-Hawley, J. (n.d.). Project Manager: Job Description \& Average Salary. Retrieved from Investopedia website: \url{https://www.investopedia.com/articles/wealth-management/021616/project-manager-job-description-average-salary.asp}
+Richards, T. W. (1909, January 1). Modern Chemistry and Medicine. Retrieved from The Atlantic website:
+\url{https://www.theatlantic.com/magazine/archive/1909/01/modern-chemistry-and-medicine/529875/}
 
-Project Manager, Information Technology (IT). (2012). Retrieved from Payscale.com website: \url{https://www.payscale.com/research/US/Job=Project_Manager\%2C_Information_Technology_(IT)/Salary}
+Science, F. of. (n.d.). Chemistry - Science - The University of Sydney. Retrieved May 29, 2021, from www.sydney.edu.au website:
+\url{https://www.sydney.edu.au/handbooks/science/subject_areas_ae/chemistry_descriptions.shtml}
 
+Science, F. of. (n.d.). Statistics - Science - The University of Sydney. Retrieved from www.sydney.edu.au website:
+\url{https://www.sydney.edu.au/handbooks/science/subject\_areas\_nz/statistics\_descriptions.shtml}
 
-Database Administrator (DBA). (2012). Retrieved from Payscale.com website: \url{https://www.payscale.com/research/US/Job=Database\_Administrator\_(DBA)/Salary}
+The Excitement of a Career in Statistics. (n.d.). Retrieved May 29, 2021, from stattrak.amstat.org website:
+\url{https://stattrak.amstat.org/2012/01/31/excitingstatisticscareer/}
 
+The 5 Most Important Skills a Web Developer Needs | | InformIT. (n.d.). Www.informit.com. Retrieved May 29, 2021, from
+\url{ https://www.informit.com/articles/article.aspx?p=2186996}
 
-
-
-
-Unit. (n.d.). Retrieved May 26, 2021, from The University of Sydney website:
-\url{https://www.sydney.edu.au/units/BUSS1040}
-
-How To Become a Business Analyst in 2021. (n.d.). Retrieved May 26, 2021, from Master’s in Data Science website: \url{https://www.mastersindatascience.org/careers/business-analyst/}
-
-
-Kenton, W. (2019). Chief Information Officer (CIO). Retrieved from Investopedia website: \url{https://www.investopedia.com/terms/c/cio.asp}
-
-6 Common Uses for Computers in Healthcare - Scott Clark Medical. (2019, January 5). Retrieved from Scott-Clark Medical website:
-\url{https://www.scott-clark.com/blog/6-common-uses-for-computers-in-healthcare/}
-
-Cotton - Department of Agriculture. (n.d.). Retrieved from www.agriculture.gov.au website: \url{https://www.agriculture.gov.au/ag-farm-food/crops/cotton}
-
-Science, F. of. (n.d.). Chemistry - Science - The University of Sydney. Retrieved May 29, 2021, from www.sydney.edu.au website: \url{https://www.sydney.edu.au/handbooks/science/subject_areas_ae/chemistry_\linebreak ptions.shtml}
-
-
-
-
-Richards, T. W. (1909, January 1). Modern Chemistry and Medicine. Retrieved from The Atlantic website: \url{https://www.theatlantic.com/magazine/archive/1909/01/modern-chemistry-and-medicine/529875/}
-
-Desjardins, J. (2014, November 10). The World’s Most Valuable Cash Crop. Retrieved from Visual Capitalist website: \url{https://www.visualcapitalist.com/the-worlds-most-valuable\-cash\-crop/}
-
-Science, F. of. (n.d.). Statistics - Science - The University of Sydney. Retrieved from www.sydney.edu.au website: \url{https://www.sydney.edu.au/handbooks/science/subject\_areas\_nz/statistics\_descriptions.shtml}
-
-Office, P. (n.d.). Business Analytics - Interdisciplinary Studies - The University of Sydney. Retrieved May 29, 2021, from www.sydney.edu.au website: \url{https://www.sydney.edu.au/handbooks/interdisciplinary\_studies/subject\_areas/subjects\_ac/business\_analytics.shtml}
-
-Poldrack, C. (n.d.). Statistical Thinking for the 21st Century. Retrieved from \url{https://web.stanford.edu/group/poldracklab/statsthinking21/introduction.html#what-is-statistical-thinking}
-
-Gramlich, J. (2020, November 23). What the data says (and doesn't say) about crime in the United States. Retrieved from \url{https://www.pewresearch.org/fact-tank/2020/11/20/facts-about-crime-in-the-u-s/}
-
-The Excitement of a Career in Statistics. (n.d.). Retrieved May 29, 2021, from stattrak.amstat.org website: \url{https://stattrak.amstat.org/2012/01/31/excitingstatisticscareer/}
-
-What is Predictive Analytics ? (2020, December 6). Retrieved from PAT RESEARCH: B2B Reviews, Buying Guides \& Best Practices website: \url{https://www.predictiveanalyticstoday.com/what-is-predictive-analytics/#:~:text=Predictive\%20analytics\%20is\%20the\%20branch}
-
-6 business applications of predictive analytics. (n.d.). Retrieved May 29, 2021, from www.neuraldesigner.com website: \url{https://www.neuraldesigner.com/blog/6\_Applications\_of\_predictive\_analytics\_in\_business\_intelligence#ChurnPrevention}
-
-
-Edwards, J. (2019, August 16). Predictive analytics: Transforming data into future insights. Retrieved from CIO website: \url{https://www.cio.com/article/3273114/what-is-predictive-analytics-transforming-data-into-future-insights.html}
-
-0 Software\%20Engineer jobs in China. (n.d.). Retrieved May 29, 2021, from cn.linkedin.com website: \url{https://www.linkedin.com/jobs/search/?currentJobId=2431581528&geoId=102890883&keywords=Software\%20Engineer&location=\%E4\%B8\%AD\%E\%9B\%BD}
+0 Software\%20Engineer jobs in China. (n.d.). Retrieved May 29, 2021, from cn.linkedin.com website:
+\url{https://www.linkedin.com/jobs/search/?currentJobId=2431581528&geoId=102890883&keywords=Software\%20Engineer&location=\%E4\%B8\%AD\%E\%9B\%BD}
 
 0 Software\%20Engineer jobs in China. (n.d.). Cn.linkedin.com. Retrieved May 29, 2021, from
 \url{ https://www.linkedin.com/jobs/search/?currentJobId=2529973809&geoId=102890883&keywords=Software\%20Engineer&location=\%E4\%B8\%AD\%E5\%9B\%BD}
 
-The 5 Most Important Skills a Web Developer Needs | | InformIT. (n.d.). Www.informit.com. Retrieved May 29, 2021, from
- \url{ https://www.informit.com/articles/article.aspx?p=2186996}
+6 business applications of predictive analytics. (n.d.). Retrieved May 29, 2021, from www.neuraldesigner.com website:
+\url{https://www.neuraldesigner.com/blog/6\_Applications\_of\_predictive\_analytics\_in\_business\_intelligence#ChurnPrevention}
 
- Office, P. (n.d.). Information Systems Descriptions - Interdisciplinary Studies - The University of Sydney. Www.sydney.edu.au. Retrieved May 29, 2021, from
- \url{ https://www.sydney.edu.au/handbooks/interdisciplinary_studies/units_of_study/tables_io/information_systems_descriptions.shtml}
-
- Office, P. (n.d.). Design Descriptions - Interdisciplinary Studies - The University of Sydney. Www.sydney.edu.au. Retrieved May 29, 2021, from
- \url{ https://www.sydney.edu.au/handbooks/interdisciplinary_studies/units_of_study/tables_dh/design_descriptions.shtml}
-
-
-
-
-
-
-
+6 Common Uses for Computers in Healthcare - Scott Clark Medical. (2019, January 5). Retrieved from Scott-Clark Medical website:
+\url{https://www.scott-clark.com/blog/6-common-uses-for-computers-in-healthcare/}
 \end{document}
 
