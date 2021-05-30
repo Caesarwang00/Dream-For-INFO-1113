@@ -7,23 +7,45 @@
 \date{\noindent \scalebox{1}{\textbf{\helveticafamily Semester 1 2021}}}
 \author{\noindent \scalebox{1}{\textbf{\helveticafamily Project 2B}}}
 
-
+\usepackage{times} % Set global font
 \usepackage{caption}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage[colorlinks,linkcolor=black]{hyperref}
+\usepackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry} %Set margins
+
+% Add hyperlinks and solve the problem of hyperlink overflow
+% change hyperlink style
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=cyan,
+}
+\def\UrlBreaks{%
+  \do\/%
+  \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l%
+     \do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z%
+  \do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L%
+     \do\M\do\N\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X\do\Y\do\Z%
+  \do0\do1\do2\do3\do4\do5\do6\do7\do8\do9\do=\do/\do.\do:%
+  \do\*\do\-\do\~\do\'\do\"\do\-}
+\Urlmuskip=0mu plus 0.1mu
+
 
 % Create a command to change the font
 \newcommand\helveticafamily{\fontfamily{phv} \selectfont}
 \DeclareTextFontCommand{\texthelvetica}{\helveticafamily}
 
-
+% Set header and footer
 \pagestyle{fancy}
 \setlength\headheight{23pt}
 \lhead{\includegraphics[scale=.3]{usydSlogo.jpg}}
 \rhead{\noindent \scalebox{1}{\helveticafamily INFO1111   2021 Sem 1}\\School of Computer Science}
 \chead{} \lfoot{} \cfoot{\thepage} \rfoot{}
 
+% Set line spacing and paragraph spacing and first line indentation
 \setlength{\parindent}{0pt}
 \setlength{\lineskip}{1.5em}
 \setlength{\parskip}{1.5em}
@@ -33,7 +55,7 @@
 
 \maketitle
 \begin{center}
-    \textbf{\noindent \scalebox{1}{\textbf{\helveticafamily Group Number:3}}}
+    \textbf{\noindent \scalebox{1}{\textbf{\helveticafamily Group Number: 3}}}
 \end{center}
 
 
@@ -53,7 +75,6 @@
 
 \tableofcontents % Generate report directory
 % \thispagestyle{empty}
-
 \setcounter{page}{1}
 \newpage
 \section{Introduction}
@@ -61,7 +82,7 @@ The subjects we choose correspond to some of our own demands. First of all, Guan
 
 \newpage
 \section{Major Allocation}
-We started with a description of our interests and direction and had a ZOOM meeting.For different fields, we seek different professional knowledge. Generally, Jero Zhu chose Information System and Design, while Mian Wei chose Statistic Business.Guanyi Du chose Business and Commerce, and Yuhan Wang chose Medic and Agriculture.These fields are widely distributed, but our goals are generally the same: to replenish our expertise and prepare for future employment, and to create value in our fields.
+We started with a description of our interests and direction and had a ZOOM meeting. For different fields, we seek different professional knowledge. Generally, Jero Zhu chose Information System and Design, while Mian Wei chose Statistic Business.Guanyi Du chose Business and Commerce, and Yuhan Wang chose Medic and Agriculture.These fields are widely distributed, but our goals are generally the same: to replenish our expertise and prepare for future employment, and to create value in our fields.
 \begin{center}
 \begin{tabular}{|l|c|r|}
 \hline
@@ -87,7 +108,7 @@ Next, I'd like to talk about the electives in agriculture. First of all, we need
 
 Finally, I will summarize the above. My chosen fields are agriculture and medicine. In these two aspects, the general direction of the application of computer science is the same, that is, the automation part of modernization. Automation, as the name implies, is to replace manual labour with machines, and machines are run in accordance with the program, and the program is the way to apply computer science. However, there are some differences in the professional courses of the two fields. In medical treatment, I hope to learn some knowledge about drugs first, because drugs are the second most important thing in hospitals besides doctors. However, in terms of agriculture, I want to start from the economic aspect, because I need to know what agricultural products I want to know, that is, which agricultural products with high economic benefits are. In the end, I chose ECON1002 and CHEM1011.
 
-To make my argument more convincing, I'm going to give you some examples. The first is to prove the importance of chemistry in medicine, the essence of life is the complex chemical reaction, and the life of death is the end of the reaction, the effect of drugs and medicine is to add the necessary by this chemical elements or add a catalyst, add can save lives and correct the wrong drug will direct the end of the reaction, also is death. This makes it impossible for a programmer to be sloppy, a single mistake, a pill of the wrong kind, could be a disaster. Therefore, chemistry is a must to learn, whether it is in the supplement of professional knowledge, or respect for the lives of others, this is a must. Followed by the choice of crops, through some of the information on the Internet search, I found that in addition to planting conditions, planting quantity, the yield under the same area, the worldwide popularity, the margins when selling, the cost of land, the cost of workers machinery must be taken into account, so I will face the choice of diversification in choosing targets.I still can't make an accurate judgment or make a decision, which makes me have to study and understand the economic market, then analyze the data and make my choice.
+To make my argument more convincing, I'm going to give you some examples. The first is to prove the importance of chemistry in medicine, the essence of life is the complex chemical reaction, and the life of death is the end of the reaction, the effect of drugs and medicine is to add the necessary by this chemical elements or add a catalyst, add can save lives and correct the wrong drug will direct the end of the reaction, also is death. This makes it impossible for a programmer to be sloppy, a single mistake, a pill of the wrong kind, could be a disaster. Therefore, chemistry is a must to learn, whether it is in the supplement of professional knowledge, or respect for the lives of others, this is a must. Followed by the choice of crops, through some of the information on the Internet search, I found that in addition to planting conditions, planting quantity, the yield under the same area, the worldwide popularity, the margins when selling, the cost of land, the cost of workers machinery must be taken into account, so I will face the choice of diversification in choosing targets. I still can't make an accurate judgment or make a decision, which makes me have to study and understand the economic market, then analyze the data and make my choice.
 
 \newpage
 \subsection{Data Science}
@@ -170,7 +191,7 @@ Database Administrator (DBA). (2012). Retrieved from Payscale.com website:
 \url{https://www.payscale.com/research/US/Job=Database\_Administrator\_(DBA)/Salary}
 
 Desjardins, J. (2014, November 10). The World’s Most Valuable Cash Crop. Retrieved from Visual Capitalist website:
-\url{https://www.visualcapitalist.com/the-worlds-most-valuable\-cash\-crop/}
+\url{https://www.visualcapitalist.com/the-worlds-most-valuable-cash-crop/}
 
 Edwards, J. (2019, August 16). Predictive analytics: Transforming data into future insights. Retrieved from CIO website:
 \url{https://www.cio.com/article/3273114/what-is-predictive-analytics-transforming-data-into-future-insights.html}
@@ -210,7 +231,7 @@ Richards, T. W. (1909, January 1). Modern Chemistry and Medicine. Retrieved from
 Science, F. of. (n.d.). Chemistry - Science - The University of Sydney. Retrieved May 29, 2021, from www.sydney.edu.au website:
 \url{https://www.sydney.edu.au/handbooks/science/subject_areas_ae/chemistry_descriptions.shtml}
 
-Science, F. of. (n.d.). Statistics - Science - The University of Sydney. Retrieved from www.sydney.edu.au website:
+Science, F. of. (n.d.). Statistics - Science - The University of Sydney. Retrieved from\\ www.sydney.edu.au website:
 \url{https://www.sydney.edu.au/handbooks/science/subject\_areas\_nz/statistics\_descriptions.shtml}
 
 The Excitement of a Career in Statistics. (n.d.). Retrieved May 29, 2021, from stattrak.amstat.org website:
@@ -228,7 +249,9 @@ The 5 Most Important Skills a Web Developer Needs | | InformIT. (n.d.). Www.info
 6 business applications of predictive analytics. (n.d.). Retrieved May 29, 2021, from www.neuraldesigner.com website:
 \url{https://www.neuraldesigner.com/blog/6\_Applications\_of\_predictive\_analytics\_in\_business\_intelligence#ChurnPrevention}
 
+
 6 Common Uses for Computers in Healthcare - Scott Clark Medical. (2019, January 5). Retrieved from Scott-Clark Medical website:
 \url{https://www.scott-clark.com/blog/6-common-uses-for-computers-in-healthcare/}
+
 \end{document}
 
