@@ -1,6 +1,117 @@
 # Dream-For-INFO-1111
 INFO1111 Group3 Assignment 2B
 
+# Dream-For-INFO-1111
+INFO1111 Group3 Assignment 2B
+
+# Description
+## Overview
+This assignment is designed to help you understand the different non-computing available elective courses and demonstrate your understanding and skills of Git and LaTeX.
+
+Project 2B will be carried out in the 7th to the 12th week and is only applicable to students who have reached level 1 in the course. Project 1 (although these students can also choose to carry out Project 2A). The project will require good teamwork, teamwork spirit and strong practical ability.
+
+## Background
+
+As a group, you need to study the University of Sydney and make recommendations on which non-computer elective subjects are most suitable for students in each of the four main majors.
+
+#### As a team,
+
+1. Research the different elective courses available
+2. Determine two elective courses for each of the four computing majors from other places in the university, which is most suitable for students of the four majors to study
+3. Assign a major to each team member
+
+#### As an individual,
+
+Each team member needs to explain why the two selected electives may be the most suitable (ie most relevant and useful) to be selected as part of the Badvcomputing degree and as a student in the designated major (for those with a double degree).
+
+You will need to create a report written in LaTeX. This requires storing a set of LaTeX files in a shared git repository: these files will include
+
+-The master file containing the shared elements of the report `master` (an introduction; the inclusion of each separate recommendation section; a section on the donation overview of how the group is managed; and a bibliography)` (an introduction; the inclusion of each separate recommendation section; a section on contributions outlining
+  how the group was managed; and a bibliography)`. All members of the group need to contribute to this.
+-A separate set of "recommended" files (one for each student). `a set of individual “recommendation” files (one for each student). `The recommended part of each member’s contribution will require 1000-2000 words, and it should be stated on which basis elective subjects are considered most suitable for students in a given major s Choice.
+
+### step 1:
+
+The University of Sydney offers many different elective courses. These elective courses come from different fields, such as
+
+-Architecture and interaction design
+
+-Arts and Social Sciences
+
+-Business and commerce
+
+-Education and social work
+
+-Engineering and Computer Science
+
+-Hygiene, medicine and dentistry
+
+-Music
+
+-Science, agriculture, environment and veterinary science.
+
+  As a team, study the different elective courses offered in these areas.
+
+### Step 2:
+
+Once your team has studied the different electives offered in these fields, please choose the two non-computing electives that are most suitable for students studying in each major.
+
+-Consider which field these elective courses come from
+-Consider what is an elective course
+-Consider what knowledge and abilities will be developed through these activities as elective courses
+-Consider how these elective courses supplement knowledge and abilities as part of the development of related majors
+-Consider whether the knowledge and abilities gained by taking these elective courses will assist you in your career
+-Consider whether there are any opportunities to participate in these elective courses
+
+**Elective courses should be selected according to the degree to which they can provide the greatest benefit to students in a particular major. **
+
+
+
+### Step 3:
+
+-Determine the profession assigned to each team member. Your team will have to work together to determine who will be assigned which major. **This does not have to be the major you are studying**. Provide a table summarizing the majors assigned to each team member.
+
+  ### Step 4:
+
+  As an individual, each team member will need to explain why the two selected elective courses may be the most suitable (ie most relevant and useful) to be selected as part of the Badvcomputing degree and as a student of the designated major (for dual-degree students) ).
+
+  -Consider which field these elective courses come from
+  -Consider what is an elective course
+  -Consider what knowledge and abilities will be developed through these activities as elective courses
+  -Consider how these elective courses supplement knowledge and abilities as part of the development of related majors
+  -Consider whether the knowledge and abilities gained by taking these elective courses will assist you in your career
+  -Consider whether there are any opportunities to participate in these elective courses
+
+  ## Git commands
+
+  Your team should create a shared git repository for report generation. Each team member should demonstrate the following abilities:
+
+-Clone the repository so that files can be processed locally
+
+-Extract any changes made by other members of the `git pull` group, and extract any changes made by other members of the group to keep its local copy up to date
+
+-Push any changes they make to the main repository so that they can be shared with others
+
+-**For level 3 or higher, you should also be able to prove:**
+
+  -Ability to create a separate branch `Branch` so that changes can be made without changes affecting the master branch `Master(main)`
+  -Resolve conflicts during the merge `conflict`
+
+## Additional Information
+
+### Submit content
+Your submission should include:
+
+-Access to your git repository so that various branches, commits, etc. can be evaluated
+-Submit your final report via canvas
+
+### Levels
+
+-To meet the level 1 requirements, basic git and LaTeX functions and basic case studies are required.
+
+-To reach the level 2 level, basic git and powerful LaTeX are required, and case studies are used to prove its rationality.
+-Reaching level 3 requires strong git skills (merging, proper use locally, etc.), strong LaTeX and excellent case studies.
+-To reach level 4, you need to have all the requirements of level 3, and you must have excellent insight into the nature of the relevant profession and excellent teamwork.
 # 描述
 ## 概述
 这项作业旨在帮助您了解不同的非计算可用的选修课，展示您对Git和LaTeX的理解和技能。
