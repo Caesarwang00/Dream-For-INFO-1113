@@ -14,6 +14,19 @@
 \usepackage[colorlinks,linkcolor=black]{hyperref}
 \usepackage[left=2.50cm, right=2.50cm, top=2.50cm, bottom=2.50cm]{geometry} %Set margins
 
+% Add hyperlinks and solve the problem of hyperlink overflow
+\usepackage{url}
+\def\UrlBreaks{%
+  \do\/%
+  \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j\do\k\do\l%
+     \do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t\do\u\do\v\do\w\do\x\do\y\do\z%
+  \do\A\do\B\do\C\do\D\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L%
+     \do\M\do\N\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X\do\Y\do\Z%
+  \do0\do1\do2\do3\do4\do5\do6\do7\do8\do9\do=\do/\do.\do:%
+  \do\*\do\-\do\~\do\'\do\"\do\-}
+\Urlmuskip=0mu plus 0.1mu
+
+
 % Create a command to change the font
 \newcommand\helveticafamily{\fontfamily{phv} \selectfont}
 \DeclareTextFontCommand{\texthelvetica}{\helveticafamily}
@@ -35,7 +48,7 @@
 
 \maketitle
 \begin{center}
-    \textbf{\noindent \scalebox{1}{\textbf{\helveticafamily Group Number:3}}}
+    \textbf{\noindent \scalebox{1}{\textbf{\helveticafamily Group Number: 3}}}
 \end{center}
 
 
@@ -55,7 +68,6 @@
 
 \tableofcontents % Generate report directory
 % \thispagestyle{empty}
-
 \setcounter{page}{1}
 \newpage
 \section{Introduction}
@@ -171,18 +183,18 @@ Cotton - Department of Agriculture. (n.d.). Retrieved from www.agriculture.gov.a
 Database Administrator (DBA). (2012). Retrieved from Payscale.com website:
 \url{https://www.payscale.com/research/US/Job=Database\_Administrator\_(DBA)/Salary}
 
-Desjardins, J. (2014, November 10). The World’s Most Valuable Cash Crop. Retrieved from Visual Capitalist website:
-\url{https://www.visualcapitalist.com/the-worlds-most-valuable\-cash\-crop/}
+Desjardins, J. (2014, November 10). The World’s Most Valuable Cash Crop. Retrieved from Visual Capitalist website:\\
+\url{https://www.visualcapitalist.com/the-worlds-most-valuable-cash-crop/}
 
-Edwards, J. (2019, August 16). Predictive analytics: Transforming data into future insights. Retrieved from CIO website:
+Edwards, J. (2019, August 16). Predictive analytics: Transforming data into future insights. Retrieved from CIO website:\\
 \url{https://www.cio.com/article/3273114/what-is-predictive-analytics-transforming-data-into-future-insights.html}
 
 Gramlich, J. (2020, November 23). What the data says (and doesn't say) about crime in the United States. Retrieved from \url{https://www.pewresearch.org/fact-tank/2020/11/20/facts-about-crime-in-the-u-s/}
 
-Hawley, J. (n.d.). Project Manager: Job Description \& Average Salary. Retrieved from Investopedia website:
+Hawley, J. (n.d.). Project Manager: Job Description \& Average Salary. Retrieved from Investopedia website: \\
 \url{https://www.investopedia.com/articles/wealth-management/021616/project-manager-job-description-average-salary.asp}
 
-How To Become a Business Analyst in 2021. (n.d.). Retrieved May 26, 2021, from Master’s in Data Science website:
+How To Become a Business Analyst in 2021. (n.d.). Retrieved May 26, 2021, from Master’s in Data Science website:\\
 \url{https://www.mastersindatascience.org/careers/business-analyst/}
 
 Kenton, W. (2019). Chief Information Officer (CIO). Retrieved from Investopedia website:
@@ -197,16 +209,16 @@ Office, P. (n.d.). Business Analytics - Interdisciplinary Studies - The Universi
 Office, P. (n.d.). Design Descriptions - Interdisciplinary Studies - The University of Sydney. Www.sydney.edu.au. Retrieved May 29, 2021, from
 \url{ https://www.sydney.edu.au/handbooks/interdisciplinary_studies/units_of_study/tables_dh/design_descriptions.shtml}
 
-Office, P. (n.d.). Finance Descriptions - Interdisciplinary Studies - The University of Sydney. Retrieved May 29, 2021, from www.sydney.edu.au website:
+Office, P. (n.d.). Finance Descriptions - Interdisciplinary Studies - The University of Sydney. Retrieved May 29, 2021, from www.sydney.edu.au website: \\
 \url{https://www.sydney.edu.au/handbooks/interdisciplinary\_studies/units\_of\_study/tables\_dh/finance\_descriptions.shtml}
 
-Office, P. (n.d.). Information Systems Descriptions - Interdisciplinary Studies - The University of Sydney. Www.sydney.edu.au. Retrieved May 29, 2021, from
+Office, P. (n.d.). Information Systems Descriptions - Interdisciplinary Studies - The University of Sydney. Www.sydney.edu.au. Retrieved May 29, 2021, from \\
 \url{https://www.sydney.edu.au/handbooks/interdisciplinary_studies/units_of_study/tables_io/information_systems_descriptions.shtml}
 
-Poldrack, C. (n.d.). Statistical Thinking for the 21st Century. Retrieved from
+Poldrack, C. (n.d.). Statistical Thinking for the 21st Century. Retrieved from \\
 \url{https://web.stanford.edu/group/poldracklab/statsthinking21/introduction.html#what-is-statistical-thinking}
 
-Richards, T. W. (1909, January 1). Modern Chemistry and Medicine. Retrieved from The Atlantic website:
+Richards, T. W. (1909, January 1). Modern Chemistry and Medicine. Retrieved from The Atlantic website: \\
 \url{https://www.theatlantic.com/magazine/archive/1909/01/modern-chemistry-and-medicine/529875/}
 
 Science, F. of. (n.d.). Chemistry - Science - The University of Sydney. Retrieved May 29, 2021, from www.sydney.edu.au website:
@@ -230,7 +242,9 @@ The 5 Most Important Skills a Web Developer Needs | | InformIT. (n.d.). Www.info
 6 business applications of predictive analytics. (n.d.). Retrieved May 29, 2021, from www.neuraldesigner.com website:
 \url{https://www.neuraldesigner.com/blog/6\_Applications\_of\_predictive\_analytics\_in\_business\_intelligence#ChurnPrevention}
 
+
 6 Common Uses for Computers in Healthcare - Scott Clark Medical. (2019, January 5). Retrieved from Scott-Clark Medical website:
 \url{https://www.scott-clark.com/blog/6-common-uses-for-computers-in-healthcare/}
+
 \end{document}
 
